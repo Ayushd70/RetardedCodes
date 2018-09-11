@@ -1,4 +1,4 @@
-//C programming code to find maximum
+//C programming code to find maximum element in an array
 #include <stdio.h>
  
 int find_maximum(int[], int); 
