@@ -17,7 +17,7 @@ class PrimeNumbers
          System.out.println(2);
       }
  
-      for ( int count = 2 ; count <=n ;  )
+      for ( int count = 2 ; count <=n ;  count++ )
       {
          for ( int j = 2 ; j <= Math.sqrt(num) ; j++ )
          {
