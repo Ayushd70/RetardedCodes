@@ -11,3 +11,8 @@ Just enjoy the ride and gets your hands dirty.
 ## Test
 **As you know now, all the stuff that you are going to develop needs be tested, because we don't want to know a week or a month later when we have  almost forgotten what it was 
 please do the testing ;) .**
+
+## License
+The MIT License (MIT)
+
+Copyright © 2020 Ayush Dubey
