@@ -1,9 +1,9 @@
 # Retarded Codes 
 
 These are a bunch of files in *C* , *Java* and *GO* (more to be added later) destinated really for beginners.
-If you're a new person to programming the best way to approach it could be starting with java or c
-and the logic in this files implemented are for beginners. If you're an intermediate or just want to get
-sharped into Algorithms & DataStructures get directly to the files in the respective directory. 
+If you're  new to programming the best way to approach it could be starting with java or c
+and the logic in these codes implemented are for beginners. If you're an intermediate or just want to get
+started with Algorithms & DataStructures get directly to the files in the respective directory. 
 Anyways, *all roads lead to Rome*
 Just enjoy the ride and gets your hands dirty.  
 
