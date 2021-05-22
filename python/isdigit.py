@@ -4,3 +4,5 @@ text = input("Enter your text: ")
 
 if text.isdigit():
     print("The string contains only numbers")
+else:
+    print("The string doesn't contains only numbers")
