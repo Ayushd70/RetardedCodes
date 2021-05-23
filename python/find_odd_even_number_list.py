@@ -1,4 +1,4 @@
-# Python program that from a list of 10 numbers, saves the even numbers in one list and the odd numbers in another list
+# Python program to sepearate out even and odd numbers into two separate lists
 # This program uses list compression
 
 list_numbers = range(11)

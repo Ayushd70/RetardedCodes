@@ -1,4 +1,7 @@
-# Python program who returns True if the string is all numbers or alphabetic characters
+# Python program which returns true if the given inputs are all numbers or alphabetic characters
 text = input("Enter your text: ")
 
-print(text.isalnum())
+if text.isalnum():
+    print("true")
+else:
+    print("false")

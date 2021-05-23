@@ -1,8 +1,8 @@
-# Python program who returns True if the string is all numbers
+# Python program which returns true if the given inputs are numbers
 
 text = input("Enter your text: ")
 
 if text.isdigit():
-    print("The string contains only numbers")
+    print("true")
 else:
-    print("The string doesn't contains only numbers")
+    print("false")
