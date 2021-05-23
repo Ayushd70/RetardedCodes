@@ -1,7 +1,9 @@
 # Python program to sepearate out even and odd numbers into two separate lists
 # This program uses list compression
 
-list_numbers = range(11)
+start = int(input("Enter the range:"))
+
+list_numbers = range(start)
 
 even_numbers = [even for even in list_numbers if even % 2 == 0]
 odd_numbers = [odd for odd in list_numbers if odd % 2 != 0]
