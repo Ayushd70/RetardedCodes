@@ -8,4 +8,4 @@ convFac = 0.621371
 
 # calculate kilometers
 kilometers = miles / convFac
-print('%0.2f miles is equal to %0.2f kilometers' %(miles, kilometers))
+print("%0.2f miles is equal to %0.2f kilometers" % (miles, kilometers))
