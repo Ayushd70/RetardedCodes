@@ -2,19 +2,34 @@ package main
 
 import "fmt"
 
-func main() {
-
-	// Basic loop
-	i := 1
+func BasicLoop(i int) int {
 	for i <= 3 {
 		fmt.Println(i)
 		i++
 	}
 
-	// Conditional loop
-	for j := 4; j <= 9; j++ {
+	return i
+}
+
+func ConditionalLoop(j int) int {
+	for ;j <= 9; j++ {
 		fmt.Println(j)
 	}
+	return j
+}
+
+func main() {
+
+	fmt.Println("Basic loop")
+	// Basic loop
+	i := 1
+	BasicLoop(i)
+
+
+	fmt.Println("Conditional loop")
+	j := 4
+	// Conditional loop
+	ConditionalLoop(j)
 
 	// Infinite loop
 	for {
