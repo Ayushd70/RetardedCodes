@@ -2,6 +2,12 @@ package main
 
 import "fmt"
 
+func Array(numbers []int) []int {
+	var arr []int
+	arr = append(arr, numbers...)
+	return arr
+}
+
 func main () {
 
 	//Array of 5 elements
