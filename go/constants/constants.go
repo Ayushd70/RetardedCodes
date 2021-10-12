@@ -7,6 +7,14 @@ import (
 
 const s string = "constant"
 
+func ExplicitConv(n float64) int64 {
+	return int64(n)
+}
+
+func TypeUsingContext(n int) float64 {
+	return math.Sin(float64(n))
+}
+
 func main() {
 	fmt.Println(s)
 
@@ -18,8 +26,8 @@ func main() {
 	fmt.Println(d)
 
 	// Explicit coversion
-	fmt.Println(int64(d))
+	fmt.Println(ExplicitConv(d))
 
 	// A  number can be given a type by using it in a context which requires one
-	fmt.Println(math.Sin(n))
+	fmt.Println(TypeUsingContext(n))
 }
