@@ -24,6 +24,6 @@ public class CountingSort {
     public static void main(String[] args) {
         int[] arr = {23, 1, 93, 3, 80, 9, 45, 67, 3};
         countSort(arr, 99);
-        System.out.print("After merge Sort: " + Arrays.toString(arr));
+        System.out.print("After count Sort: " + Arrays.toString(arr));
     }
 }
