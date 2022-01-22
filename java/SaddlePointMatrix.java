@@ -1,6 +1,9 @@
+//  Saddle point of a matrix is an element in the matrix which is smallest in its row and largest in its column.
+//  A matrix can have many or no saddle points
+
 import java.util.Scanner;
 
-public class SadlePoint {
+public class SaddlePointMatrix {
     static void findSaddlePoint(int[][] matrix) {
         for (int i = 0; i < matrix.length; i++) {
             int rowMin = matrix[i][0];
