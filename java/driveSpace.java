@@ -7,7 +7,7 @@ public class driveSpace {
 
         File[] drives = File.listRoots();
 
-        if (drives.length > 0 && drives != null) {
+        if (drives.length > 0) {
             for (File drive : drives) {
                 System.out.println("====================");
 

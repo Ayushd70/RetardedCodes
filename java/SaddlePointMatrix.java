@@ -5,8 +5,8 @@ import java.util.Scanner;
 
 public class SaddlePointMatrix {
     static void findSaddlePoint(int[][] matrix) {
-        for (int i = 0; i < matrix.length; i++) {
-            int rowMin = matrix[i][0];
+        for (int[] ints : matrix) {
+            int rowMin = ints[0];
 
             int colIndex = 0;
 
@@ -14,9 +14,9 @@ public class SaddlePointMatrix {
 
             // Finding the smallest element in ith row
 
-            for (int j = 1; j < matrix[i].length; j++) {
-                if (matrix[i][j] < rowMin) {
-                    rowMin = matrix[i][j];
+            for (int j = 1; j < ints.length; j++) {
+                if (ints[j] < rowMin) {
+                    rowMin = ints[j];
 
                     colIndex = j;
                 }
@@ -24,8 +24,8 @@ public class SaddlePointMatrix {
 
             // Checking rowMin is also the largest element in its column
 
-            for (int j = 0; j < matrix.length; j++) {
-                if (matrix[j][colIndex] > rowMin) {
+            for (int[] value : matrix) {
+                if (value[colIndex] > rowMin) {
                     saddlePoint = false;
 
                     break;

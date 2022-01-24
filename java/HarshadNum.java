@@ -6,7 +6,7 @@ public class HarshadNum {
 
         int sum = 0;
 
-        int lastDigit = 0;
+        int lastDigit;
 
         // Calculating the sum of digits of inputNumber
 

@@ -4,8 +4,8 @@ public class RemoveDup {
     public static void removeDuplicates(int[] arrayWithDuplicates) {
         System.out.println("Array with Duplicates :");
 
-        for (int i = 0; i < arrayWithDuplicates.length; i++) {
-            System.out.print(arrayWithDuplicates[i] + "\t");
+        for (int arrayWithDuplicate : arrayWithDuplicates) {
+            System.out.print(arrayWithDuplicate + "\t");
         }
         // Assuming all elements in input array are unique
 
@@ -44,8 +44,8 @@ public class RemoveDup {
 
         System.out.println("Array Without Duplicates : ");
 
-        for (int i = 0; i < arrayWithoutDuplicates.length; i++) {
-            System.out.print(arrayWithoutDuplicates[i] + "\t");
+        for (int arrayWithoutDuplicate : arrayWithoutDuplicates) {
+            System.out.print(arrayWithoutDuplicate + "\t");
         }
 
         System.out.println();
