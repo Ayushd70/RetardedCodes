@@ -1,3 +1,11 @@
+/*
+A number is said to be Disarium if it is equal to sum of its digits raised to the power of their respective position in the number.
+
+eg: 175 = 1^1 + 7^2 +5^3
+          1+ 49 + 125
+          175
+*/
+
 import java.util.Scanner;
 
 public class DisariumNumber {
