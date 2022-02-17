@@ -1,7 +1,7 @@
 /*
 * Explore Ranges
 * */
-fun main(args: Array<String>) {
+fun main() {
 
     var r1 = 1..5
     // This range contains number 1, 2, 3, 4, 5

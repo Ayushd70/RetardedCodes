@@ -1,15 +1,15 @@
-fun main(args: Array<String>) {
+fun main() {
 
-    var name: String
+    val name: String
     name = "Ayush"
 
-    var age: Int = 22
+    var age = 22
     var myAge = 22
 
-    var isAlive: Boolean = true
-    var marks: Float = 97.4F
-    var percentage: Double = 90.78
-    var gender: Char = 'M'
+    var isAlive = true
+    val marks = 97.4F
+    var percentage = 90.78
+    var gender = 'M'
 
     print(marks)
 }

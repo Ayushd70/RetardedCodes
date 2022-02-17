@@ -1,4 +1,4 @@
-fun main(args: Array<String>) {
+fun main() {
 
     val rect = Rectangle()
     rect.length = 5

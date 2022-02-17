@@ -1,5 +1,5 @@
 // Hello World App
 
-fun main(args: Array<String>) {
+fun main() {
     print("Hello World")
 }
