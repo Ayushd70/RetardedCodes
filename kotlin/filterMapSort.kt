@@ -13,7 +13,7 @@ fun main() {
     }
 
     val people = listOf(Pperson(10, "Steve"), Pperson(23, "Annie"), Pperson(17, "Sam"))
-    val names = people.filter { person ->person.name.startsWith("S") }.map { it.name }
+    val names = people.filter { person -> person.name.startsWith("S") }.map { it.name }
 
     for (name in names) {
         println(name)
