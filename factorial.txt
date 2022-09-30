@@ -1,0 +1,26 @@
+/*Calculate Factorial*/
+#include<stdio.h>
+int main()
+{
+int num,i.fact;
+printf("Factorial Calculator");
+printf("Enter number");
+scanf("%d",num);
+fact=i=1;
+while(i<=1)
+  {
+    fact=fact*i;
+    i++;
+  }
+  printf("Factorial value of %d is %d",num,fact);
+  return 0 ;
+
+}
+~
+~
+
+
+
+
+
+
