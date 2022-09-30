@@ -1,20 +1,21 @@
+"use strict";
 // Selection sort with O(n^2) time complexity
 
 function Selection_Sort(arr, compare_Function) {
   function compare(a, b) {
     return a - b;
   }
-  var min = 0;
-  var index = 0;
-  var temp = 0;
+  let min = 0;
+  let index = 0;
+  let temp = 0;
 
   compare_Function = compare_Function || compare;
 
-  for (var i = 0; i < arr.length; i += 1) {
+  for (let i = 0; i < arr.length; i += 1) {
     index = i;
     min = arr[i];
 
-    for (var j = i + 1; j < arr.length; j += 1) {
+    for (let j = i + 1; j < arr.length; j += 1) {
       if (compare_Function(min, arr[j]) > 0) {
         min = arr[j];
         index = j;
