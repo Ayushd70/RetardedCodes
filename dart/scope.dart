@@ -1,21 +1,13 @@
-main(List<string> args) {
-
+main(List<String> args) {
   fooOuter() {
+    print("Hello from foo outer!");
+  }
 
-    print("Hello from foo outer !");
-
-    fooInner() {
-
-      print("Hello from foo !");
-
-      fooOuter();
-
-    }
-
+  fooInner() {
+    print("Hello from foo inner!");
   }
 
   fooOuter();
 
   fooInner();
-
 }
