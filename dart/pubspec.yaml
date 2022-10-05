@@ -1,0 +1,13 @@
+name: retarded_code
+
+repository: https://github.com/Ayushd70/RetardedCodes
+
+dependencies:
+  test: ^1.15.4
+  coverage: ^1.6.0
+
+dev_dependencies:
+  stack: ^0.2.1
+
+environment:
+  sdk: ">=2.10.0 <3.0.0"
