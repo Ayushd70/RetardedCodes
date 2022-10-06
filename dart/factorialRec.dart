@@ -9,7 +9,7 @@ findFactorial(int no) {
 
 main() {
   print("Enter a number : ");
-  String? s = stdin.readLineSync();
+  String s = stdin.readLineSync();
   if (s != null) {
     var no = int.parse(s);
     print('Factorial of $no is ${findFactorial(no)}');

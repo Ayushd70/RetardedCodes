@@ -1,7 +1,7 @@
 import 'dart:io';
 
 void main() {
-  int? number;
+  int number;
 
   print("Enter a number : ");
   var data = stdin.readLineSync();

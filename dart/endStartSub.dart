@@ -1,8 +1,8 @@
 import 'dart:io';
 
 void main() {
-  String? mainString;
-  String? subString;
+  String mainString;
+  String subString;
 
   print("Enter a string : ");
   mainString = stdin.readLineSync();
@@ -10,7 +10,7 @@ void main() {
   print("Enter the sub string : ");
   subString = stdin.readLineSync();
 
-  if (mainString!.startsWith(subString!)) {
+  if (mainString.startsWith(subString)) {
     print('"$mainString" starts with "$subString"');
   } else if (mainString.endsWith(subString)) {
     print('"$mainString" ends with "$subString"');
