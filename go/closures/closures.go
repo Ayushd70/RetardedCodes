@@ -2,8 +2,8 @@ package main
 
 import "fmt"
 
-//This function returns another function
-func intSeq() func() int {
+// This function returns another function
+func IntSeq() func() int {
 	i := 0
 	return func() int {
 		i++
@@ -14,7 +14,7 @@ func intSeq() func() int {
 func main() {
 
 	//call intSeq assigning the value of  nextInt
-	nextInt := intSeq()
+	nextInt := IntSeq()
 
 	//effect of closure
 	fmt.Println(nextInt())
@@ -22,6 +22,6 @@ func main() {
 	fmt.Println(nextInt())
 
 	//confirm tgat the state is unique to that particular function
-	newInts := intSeq()
+	newInts := IntSeq()
 	fmt.Println(newInts())
 }
