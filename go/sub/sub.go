@@ -8,7 +8,6 @@ func main() {
 	var x, y int
 	fmt.Scanln(&x)
 	fmt.Scanln(&y)
-	var s int
-	s = x - y
+	s := x - y
 	fmt.Println("The substraction of the two digits is", s)
 }
