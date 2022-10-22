@@ -2,8 +2,8 @@ package main
 
 import "fmt"
 
-//takes number of ints as arg
-func sum(nums ...int) {
+// takes a slice/array of ints as arg
+func Sum(nums ...int) {
 	fmt.Print(nums, " ")
 	total := 0
 	for _, num := range nums {
@@ -13,12 +13,11 @@ func sum(nums ...int) {
 }
 
 func main() {
-
 	//Call the variadic functions
-	sum(1, 2)
-	sum(1, 2, 3)
+	Sum(1, 2)
+	Sum(1, 2, 3)
 
 	// apply mutiple args in a slice can be applied to a variadic func using "func (slice...)"
 	nums := []int{1, 2, 3, 4}
-	sum(nums...)
+	Sum(nums...)
 }
