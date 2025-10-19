@@ -1,14 +1,15 @@
-// program to generate fibonacci series up to n terms
+// Generate Fibonacci Series up to n terms
+function generateFibonacci(n) {
+  if (n <= 0) return [];
+  if (n === 1) return [0];
 
-// take input from the user
-const number = parseInt(prompt('Enter the number of terms: '));
-let n1 = 0, n2 = 1, nextTerm;
-
-console.log('Fibonacci Series:');
-
-for (let i = 1; i <= number; i++) {
-    console.log(n1);
-    nextTerm = n1 + n2;
-    n1 = n2;
-    n2 = nextTerm;
+  const series = [0, 1];
+  for (let i = 2; i < n; i++) {
+    series.push(series[i - 1] + series[i - 2]);
+  }
+  return series;
 }
+
+// Example usage:
+const number = parseInt(prompt('Enter the number of terms:'), 10);
+console.log('Fibonacci Series:', generateFibonacci(number));
